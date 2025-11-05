@@ -1,0 +1,27 @@
+{
+  "name": "unlock-pdf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "googleapis": "^164.1.0",
+    "helmet": "^8.1.0",
+    "imap-simple": "^5.1.0",
+    "mailparser": "^3.7.5",
+    "mkdirp": "^3.0.1",
+    "morgan": "^1.10.1",
+    "multer": "^2.0.2",
+    "node-fetch": "^3.3.2",
+    "nodemon": "^3.1.10",
+    "pdf-lib": "^1.17.1",
+    "uuid": "^13.0.0"
+  }
+}
