@@ -1,6 +1,6 @@
 # PDF Unlock Server
 
-A Node.js server to unlock password-protected PDFs for Google Apps Script integration.
+A Node.js server to unlock password-protected PDFs using pdf-lib npm package, compatible with AWS Lambda and Google Apps Script integration.
 
 ## Setup
 
@@ -22,7 +22,8 @@ The server will run on port 4000.
 - Update the `apiUrl` in your Apps Script to: `http://localhost:4000/unlock-pdf`
 
 ### For Production
-- Deploy your Node.js server to a cloud platform (Heroku, Railway, etc.)
+- **Express Server**: Deploy to cloud platforms (Heroku, Railway, etc.)
+- **AWS Lambda**: Use `lambda.js` for serverless deployment
 - Update the `apiUrl` in your Apps Script to your deployed server URL
 
 ## API Endpoint
